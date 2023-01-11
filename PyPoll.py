@@ -71,7 +71,11 @@ with open(file_to_load) as election_data:
 
         vote_percentage = float(votes)/float(total_votes) * 100
 
+        # Print each candidate, their voter count, and percentage to the
+        # terminal.
 
+        print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+       
         # Determine winning vote count and candidate
         # Determine if the votes is greater than the winning count.
 
