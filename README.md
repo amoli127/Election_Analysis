@@ -54,4 +54,15 @@ When analyzing the data of the election results, we verified the following resul
  
  ## Election-Audit Summary:
  
+Analyzing the results of the elections, we performed a count of the total votes, and we made a breakdown between candidates and counties of the State of Colorado. Although this type of process can be done manually or using different software, Python is a tool that allows the automation of this process. Thanks to the algorithm we created to count the votes in these elections, the results of this U.S. Congressional race can be certified. Below we can see an example of the code that we used to count the votes each candidate received.
+
+ 
+ ![image](https://user-images.githubusercontent.com/117063056/212238100-47819306-29c6-41fd-859a-b0409c2e3018.png)
+ 
+This same code can be modified and applied to other processes.
+
+* One of those examples could be to implement the code for the presidential elections and help in the breakdown by state.
+
+* Another example would be to implement it in a business, such as a car dealership, and do a sales count to determine each salesperson's percentage and evaluate their efficiency.
+ 
  
